@@ -1,0 +1,15 @@
+[package]
+name = "temporary-purse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+casper-contract = "3.0.0"
+casper-types = "3.0.0"
+
+[[bin]]
+name = "temporary-purse"
+path = "src/main.rs"
+bench = false
+doctest = false
+test = false
